@@ -4,7 +4,6 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
 
-
 /* CSS Custom Properties */
 
 :root {
@@ -73,7 +72,6 @@ h6 {
 #__next {
   isolation: isolate;
 }
-
 
 /* Page Styling */
 
@@ -202,4 +200,32 @@ tr:last-child td {
 
 hr {
   background-color: var(--clr-neutral-lght-grey);
+}
+
+@media (max-width: 760px) {
+  .recipe {
+    width: 100%;
+    margin: 0;
+    border-radius: 0;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 0;
+  }
+
+  header {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  section {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  hr {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 }
